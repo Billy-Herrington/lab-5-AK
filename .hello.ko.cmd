@@ -1,0 +1,1 @@
+cmd_/home/obernadin/lab5-ak/hello.ko := ccache arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/obernadin/lab5-ak/hello.ko /home/obernadin/lab5-ak/hello.o /home/obernadin/lab5-ak/hello.mod.o ;  true
